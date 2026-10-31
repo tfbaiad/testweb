@@ -18,7 +18,7 @@
   <main class="card">
     <div class="eyebrow">CS2 · PLAYER INFORMATION</div>
     <h1 class="title">选手信息提交</h1>
-    <p class="desc">请填写你在完美世界竞技平台使用的游戏名称。提交后，系统会记录本次提交的网络及浏览器环境信息，用于赛事报名核验与争议处理。</p>
+    <p class="desc">请填写你在完美世界竞技平台使用的游戏名称。提交后，系统会记录本次提交的网络及浏览器环境信息，用于赛事核验与争议处理。</p>
     <form id="form">
       <label for="playerName">完美平台名称</label>
       <input id="playerName" name="playerName" type="text" maxlength="40" autocomplete="off" placeholder="请输入你的完美名称" required>
@@ -27,7 +27,7 @@
       <button id="submit" type="submit">确认并上传</button>
       <div id="status" role="status" aria-live="polite"></div>
     </form>
-    <div class="foot">请勿提交他人的游戏名称。提交信息仅用于赛事管理；建议管理员设置访问权限和明确的数据保留期限。</div>
+    <div class="foot">请勿提交他人的游戏名称。提交信息仅用于赛事管理。</div>
   </main>
 <script>
 const form=document.getElementById('form'),button=document.getElementById('submit'),statusBox=document.getElementById('status');
